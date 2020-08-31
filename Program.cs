@@ -6,7 +6,10 @@ namespace TechAssignment1
     {
         static void Main(string[] args)
         {
+            //Pause to display Hello World!
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey(true);
         }
     }
 }
